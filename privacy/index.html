@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — LocalPDF</title>
+<meta name="description" content="LocalPDF privacy policy: what data we collect, how cookies and advertising are used, and why your files are never uploaded.">
+<link rel="canonical" href="https://localpdf.app/privacy/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect x=%2225%22 y=%2218%22 width=%2240%22 height=%2252%22 rx=%224%22 fill=%22none%22 stroke=%22%238B7FFF%22 stroke-width=%225%22/><rect x=%2235%22 y=%2230%22 width=%2240%22 height=%2252%22 rx=%224%22 fill=%22%230F1419%22 stroke=%22%234ADE80%22 stroke-width=%225%22/></svg>">
+<style>
+  :root { --bg: #0F1419; --bg-elev: #161D24; --bg-elev-2: #1E2730; --accent: #8B7FFF; --green: #4ADE80; --text: #EAEDF0; --text-dim: #8A95A1; --border: #2A3540; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.65; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  header { border-bottom: 1px solid var(--border); padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: rgba(15,20,25,0.92); backdrop-filter: blur(8px); }
+  .logo { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; }
+  .logo-mark { width: 26px; height: 26px; position: relative; flex-shrink: 0; }
+  .logo-mark::before { content: ''; position: absolute; left: 0; top: 2px; width: 16px; height: 21px; border: 2.5px solid var(--accent); border-radius: 2px; }
+  .logo-mark::after { content: ''; position: absolute; left: 7px; top: 6px; width: 16px; height: 21px; background: var(--bg); border: 2.5px solid var(--green); border-radius: 2px; }
+  nav { display: flex; gap: 26px; }
+  nav a { color: var(--text-dim); font-size: 14px; font-weight: 500; text-decoration: none; }
+  nav a.active, nav a:hover { color: var(--text); }
+  @media (max-width: 760px) { nav { display: none; } }
+  .breadcrumb { max-width: 700px; margin: 20px auto 0; padding: 0 24px; font-size: 13px; color: var(--text-dim); }
+  .breadcrumb a { color: var(--text-dim); text-decoration: none; }
+  main { max-width: 700px; margin: 0 auto; padding: 24px 24px 80px; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(28px, 4.5vw, 38px); margin-bottom: 6px; letter-spacing: -0.02em; }
+  .updated { color: var(--text-dim); font-size: 14px; margin-bottom: 32px; }
+  h2 { font-family: 'Space Grotesk', sans-serif; font-size: 19px; margin: 32px 0 12px; }
+  p, li { color: var(--text-dim); margin-bottom: 12px; font-size: 15px; }
+  ul { margin: 0 0 16px 20px; }
+  .toc { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; margin-bottom: 8px; }
+  .toc a { display: block; color: var(--accent); text-decoration: none; font-size: 14px; padding: 4px 0; }
+  .toc a:hover { text-decoration: underline; }
+  .highlight-box { background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.25); border-radius: 10px; padding: 16px 18px; margin: 16px 0; font-size: 14px; }
+  .highlight-box strong { color: var(--green); }
+  footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; color: var(--text-dim); font-size: 13px; }
+  footer a { color: var(--text-dim); margin: 0 10px; text-decoration: none; }
+  footer a:hover { color: var(--text); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="logo-mark" aria-hidden="true"></span><span>LocalPDF</span></div>
+  <nav>
+    <a href="/merge/">Merge</a>
+    <a href="/split/">Split</a>
+    <a href="/compress/">Compress</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</header>
+
+<div class="breadcrumb"><a href="/">Home</a> / Privacy Policy</div>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: June 27, 2026</p>
+
+  <div class="highlight-box">
+    <strong>The short version:</strong> the PDF files you process on this site are never uploaded to our servers or anyone else's. All merging, splitting, and compressing happens locally in your browser using JavaScript libraries loaded into the page.
+  </div>
+
+  <div class="toc">
+    <a href="#overview">1. Overview</a>
+    <a href="#file-processing">2. How your files are processed</a>
+    <a href="#data-we-collect">3. Information we collect</a>
+    <a href="#cookies">4. Cookies and similar technologies</a>
+    <a href="#advertising">5. Advertising (Google AdSense)</a>
+    <a href="#thirdparty">6. Third-party links and libraries</a>
+    <a href="#children">7. Children's privacy</a>
+    <a href="#changes">8. Changes to this policy</a>
+    <a href="#contact">9. Contact us</a>
+  </div>
+
+  <h2 id="overview">1. Overview</h2>
+  <p>LocalPDF ("we," "us," or "our") operates the website localpdf.app (the "Service"). This Privacy Policy explains what information is collected when you use the Service, how it is used, and the choices available to you.</p>
+
+  <h2 id="file-processing">2. How your files are processed</h2>
+  <p>The merge, split, and compress tools on this Service read PDF files you select using your browser's built-in File API and process them using JavaScript libraries that run locally on your device. At no point are the contents of your PDF files transmitted to our servers or to any third party as part of using these tools. When you click a download button, the resulting file is generated and saved directly from your browser's memory to your device.</p>
+
+  <h2 id="data-we-collect">3. Information we collect</h2>
+  <p>We may automatically collect limited technical information through standard web server logs and analytics, including browser type, device type, pages visited, approximate location derived from IP address, and referring website. None of this includes the content of any PDF file you process using our tools.</p>
+  <p>If you use our contact form, we collect the name, email address, and message you choose to provide, solely to respond to your inquiry.</p>
+
+  <h2 id="cookies">4. Cookies and similar technologies</h2>
+  <p>This Service and its third-party partners may use cookies and similar technologies to operate the Service, remember preferences, and serve relevant advertising. You can instruct your browser to refuse cookies, though some parts of the Service may not function properly without them.</p>
+
+  <h2 id="advertising">5. Advertising (Google AdSense)</h2>
+  <p>We use Google AdSense to display advertisements on this Service. Google, as a third-party vendor, uses cookies to serve ads based on a user's prior visits to this and other websites.</p>
+  <p>You may opt out of personalized advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google's Ads Settings</a>, or opt out of third-party vendors' use of cookies for personalized advertising at <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">www.aboutads.info</a>.</p>
+
+  <h2 id="thirdparty">6. Third-party links and libraries</h2>
+  <p>This Service loads open-source JavaScript libraries from third-party content delivery networks (CDNs) in order to provide PDF processing functionality in your browser. These libraries run locally once loaded and do not transmit your file contents elsewhere. The Service may also contain links to third-party websites that are not owned or controlled by us; we are not responsible for their content or privacy practices.</p>
+
+  <h2 id="children">7. Children's privacy</h2>
+  <p>The Service is not directed at children under the age of 13, and we do not knowingly collect personal information from children under 13.</p>
+
+  <h2 id="changes">8. Changes to this policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+  <h2 id="contact">9. Contact us</h2>
+  <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:kylash.rao@gmail.com">kylash.rao@gmail.com</a> or via our <a href="/contact/">contact page</a>.</p>
+</main>
+
+<footer>
+  <a href="/about/">About</a>
+  <a href="/contact/">Contact</a>
+  <a href="/privacy/">Privacy Policy</a>
+  <div style="margin-top:14px;">© 2026 LocalPDF</div>
+</footer>
+
+</body>
+</html>
